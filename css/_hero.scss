@@ -1,0 +1,90 @@
+.main {
+  padding-top: 80px;
+  // position: relative;
+  background: url(../img/blood.png) 100% 0 no-repeat;
+  // &::after {
+  //   content: '';
+  //   display: inline-block;
+  //   position: absolute;
+  //   background: url(../img/venom.png)  cover no-repeat;
+  //   width: 715px;
+  //   height: 761px;
+  //   top: 0;
+  //   right: 0;
+  // }
+
+  // .main__title
+  &__title {
+    font-size: 24px;
+    margin-bottom: 38px;
+  }
+  // .main__svg
+  &__svg {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: flex-start;
+    & svg {
+      width: 100%;
+      flex-basis: content;
+    }
+  }
+
+  // .main__desc
+  &__desc {
+    max-width: 423px;
+    font-size: 16px;
+    line-height: 140%;
+    margin-bottom: 70px;
+  }
+  &__venom {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 50vw;
+    //715px; //264
+  }
+
+  // .main__btns
+  &__btns {
+  }
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  // .btns__see-trailer
+  &__see-trailer {
+    border-radius: 5px;
+    padding: 15px 30px;
+    width: 204px;
+    height: 46px;
+    cursor: pointer;
+    border: none;
+    // font-size: 14px;
+    color: #8d0019;
+  }
+  // .btns__bay-tips
+  &__bay-tips {
+  }
+  &__see-trailer,
+  &__bay-tips {
+    &::before {
+      content: '';
+      width: 15px;
+      aspect-ratio: 1;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      // column-gap: 10px;
+      margin-right: 10px;
+      transform: translateY(-30%);
+    }
+  }
+  &__see-trailer::before {
+    background: url(../img/svg/play.svg) center / cover no-repeat;
+  }
+  &__bay-tips::before {
+    background: url(../img/svg/tiket.svg) center / cover no-repeat;
+  }
+}
