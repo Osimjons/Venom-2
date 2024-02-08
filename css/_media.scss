@@ -55,5 +55,12 @@
     &__title{
       margin-bottom: 15px;
     }
+    &__btns{
+      display: flex;
+      flex-direction: column;
+      &btns__see-trailer{
+        margin-bottom: 15px;
+      }
+    }
   }
 }
