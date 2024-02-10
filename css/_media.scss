@@ -45,8 +45,8 @@
     // .header__link
     &__link {
       color: #000;
-      :hover {
-        color: rgba(225, 225, 225, 0.1);
+      &:hover {
+        color: rgb(174, 33, 33);
       }
     }
     &__menu-burger {

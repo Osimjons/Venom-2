@@ -307,8 +307,8 @@ body {
   .header__link {
     color: #000;
   }
-  .header__link :hover {
-    color: rgba(225, 225, 225, 0.1);
+  .header__link:hover {
+    color: rgb(174, 33, 33);
   }
   .header__menu-burger {
     display: -webkit-box;
