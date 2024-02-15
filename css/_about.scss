@@ -1,0 +1,101 @@
+.about {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/about-bg.jpg);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  // .about__wrap
+  &__wrap {
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  // .about__film
+  &__film {
+    max-width: 460px;
+  }
+  // .about__title
+  &__title {
+    margin-bottom: 28px;
+    font-weight: 700;
+    font-size: 36px;
+  }
+  // .about__desc
+  &__desc {
+    max-width: 423px;
+    margin-bottom: 28px;
+    line-height: 140%;
+  }
+  // .about__sub-desc
+  &__sub-desc {
+  }
+  // .about__list-title
+  &__list-title {
+  }
+  // .about__actors
+  &__actors {
+    display: flex;
+    // flex-wrap: wrap;
+    column-gap: 30px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  // .about__hero-bg
+  &__hero-bg {
+    margin-bottom: 25px;
+  }
+  // .about__list-item
+  &__list-item {
+  }
+}
+
+.sub-desc {
+  // .sub-desc__title
+  &__title {
+  }
+  // .sub-desc__list
+  &__list {
+    column-count: 2;
+    column-gap: 20px;
+    margin-bottom: 28px;
+  }
+  // .sub-desc__item
+  &__item {
+  }
+  // .sub-desc__img
+  &__img {
+    position: relative;
+    display: inline-block;
+    &::after {
+      content: '';
+      width: 45px;
+      height: 45px;
+      background-color: #fff;
+      position: absolute;
+      z-index: 999;
+    }
+  }
+}
+.list {
+  margin-bottom: 20px;
+  min-width: 109px;
+
+  // .list__title
+  &__title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    margin-bottom: 5px;
+  }
+  // .list__item
+  &__item {
+  }
+}
