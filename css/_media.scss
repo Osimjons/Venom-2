@@ -59,6 +59,38 @@
     top: 100px;
     z-index: 1;
   }
+  // about 
+  .about {
+  background: linear-gradient(rgba(0, 0, 0, 0.7)),
+    url(../img/about-bg.jpg) center/cover no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-top: 130px;
+  // .about__wrap
+  &__wrap {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: hidden;
+    gap: 5px;
+  }
+  // .about__movie
+  &__movie {
+    margin-bottom: 40px;
+  }
+  // .about__director
+  &__director {
+    display: block;
+    .director__img {
+      display: flex;
+      margin-bottom: 45px;
+    }
+
+  }
+}
 }
 @media (max-width: 425px) {
   .main {
