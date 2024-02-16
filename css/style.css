@@ -316,25 +316,14 @@ body {
 .movie__video {
   position: relative;
 }
-.movie__video::after {
-  content: "";
-  position: absolute;
-  width: 45px;
-  height: 45px;
-  background-color: #fff;
-  background-image: url(../img/svg/play.svg);
-  background-repeat: no-repeat;
-  background-position: 50%;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  border-radius: 50%;
-  cursor: pointer;
-}
 .movie__img {
   width: 100%;
+}
+.movie__video-play {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .actors__list {
@@ -471,4 +460,8 @@ body {
   .main__btnsbtns__see-trailer {
     margin-bottom: 15px;
   }
+}
+.frame__video {
+  width: 100%;
+  height: calc(100vh - 150px);
 }

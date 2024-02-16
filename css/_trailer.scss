@@ -1,0 +1,16 @@
+.frame {
+  // width: 1160px;
+  // margin: 0 auto;
+  // padding: 0 15px;
+  // .frame__video-block
+  &__video-block {
+    // width: 100%;
+    // height: 100%;
+  }
+  // .frame__video
+  &__video {
+    width: 100%;
+    height: calc(100vh - 150px) ;
+    // height: 514;
+  }
+}
