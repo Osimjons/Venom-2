@@ -34,8 +34,8 @@
     <section>
       <div class="container">
         <div class="main__title">16 сентября 2021</div>
-        <div class="main__svg"><svg width="835" height="207" viewBox="0 0 835 207" fill="none"
-            xmlns="http://www.w3.org/2000/svg">
+        <div class="main__svg">
+          <svg width="835" height="207" viewBox="0 0 835 207" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M32.136 2.4H0.167999L31.272 204H78.504L109.608 2.4H80.52L56.328 166.848L32.136 2.4Z"
               fill="#EFE8F4" />
             <path d="M170.475 31.2H225.195V2.4H138.795V204H225.195V175.2H170.475V116.16H213.963V87.36H170.475V31.2Z"
@@ -52,18 +52,26 @@
               d="M802.835 51.936C802.835 110.112 740.051 119.904 740.051 179.232V204H831.635V175.2H771.731C771.443 173.76 771.443 172.32 771.443 170.88C771.443 137.76 834.515 114.144 834.515 50.784C834.515 18.528 818.387 0.0960083 787.283 0.0960083C756.179 0.0960083 740.051 18.528 740.051 50.784V70.368H770.003V48.768C770.003 34.368 776.339 28.896 786.419 28.896C796.499 28.896 802.835 33.792 802.835 51.936Z"
               fill="#EFE8F4" />
           </svg>
-
         </div>
 
         <div class="main__desc">В настырном журналисте по-прежнему живет симбиот. Том Харди в образе обаятельного
           суперзлодея из комиксов Marvel.</div>
         <div class="btns main__btns">
 
-          <button class="btns__see-trailer" type="button">Смотреть трейлер</button>
+          <button class="btns__see-trailer " id="see-trailer" type="button">Смотреть трейлер</button>
           <br>
           <a href="#" class="btns__bay-tips">Билеты на премьеру</a>
-        </div>
 
+        </div>
+        <div class="modal-trailer">
+          <div class="modal-trailer__body">
+            <iframe class="modal-trailer__video" src="https://www.youtube.com/embed/Othd8W8o3t0" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen>
+            </iframe>
+            <button class="modal-trailer__close">X</button>
+          </div>
+        </div>
       </div>
       <img id="venom-img" class="main__venom" src="img/venom.png" alt="Venom">
     </section>
